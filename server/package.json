@@ -1,0 +1,9 @@
+{
+  "name": "mobi-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=development tsx index.ts",
+    "start:prod": "NODE_ENV=production node ../server_dist/index.js"
+  }
+}
